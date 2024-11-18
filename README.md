@@ -1,7 +1,7 @@
-# Sort Visualizer
+# Sorting Algorithms Visualizer
 
 ## Overview
-**Sort Visualizer** is a Python-based project designed to help you understand sorting algorithms through vibrant, animated visualizations. Using the `Tkinter` library, this program demonstrates three popular sorting algorithms in action:
+**Sort Visualizer** is a Python-based project but made with web designed to help you understand sorting algorithms through vibrant, animated visualizations. Using the `Tkinter` library, this program demonstrates three popular sorting algorithms in action:
 
 - Bubble Sort
 - Selection Sort
