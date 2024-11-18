@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort-A-Palooza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>✨Visualize Sorting Algorithms!✨</h1>
+    </header>
+    <div class="controls">
+        <label for="algorithm">Algorithm:</label>
+        <select id="algorithm">
+            <option value="bubble">Bubble Sort</option>
+            <option value="selection">Selection Sort</option>
+            <option value="insertion">Insertion Sort</option>
+            <option value="quick">Quick Sort</option>
+        </select>
+        <button id="generate">Generate Array</button>
+        <button id="sort">Start Sorting</button>
+        <label for="speed">Speed:</label>
+        <input type="range" id="speed" min="10" max="500" step="10" value="100">
+    </div>
+    <div class="array-container" id="array-container"></div>
+    <div class="array-container" id="array-container"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
